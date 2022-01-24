@@ -1,3 +1,41 @@
-/* header{
-    background-image: url("../img/header.jpg")
-} */
+@font-face {
+    font-family: courgette;
+    src: url(../fonts/Courgette-Regular.ttf);
+
+}
+@font-face {
+    font-family: oswald;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: courgette;
+}
+
+header { 
+    background-image: url(../img/header.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    
+    
+}
+
+hr{
+    color: white;
+}
+
+.background{
+    background-color:rgba(0, 0, 0, 0.5);
+    
+}
+h3{
+    font-family: oswald;
+}
+
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
