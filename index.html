@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/homepage.css">
+
 </head>
 
 <body>
@@ -52,7 +54,7 @@
 
     <main class="container">
         <div class="row">
-            <h3 class="col-12 justify-content-center mt-4">Derniers aticles</h3>
+            <h3 class="col-12 justify-content-center mt-4">Derniers articles</h3>
 
             <section class="col-lg-8">
                 <article class="row mt-4">
@@ -71,25 +73,20 @@
                 <article class="row mt-4">
                     <img class="col-4" src="./img/articles/metro/metro-header.jpg" alt="metro">
                     <div class="col-8">
-                        <h3>Chez Suzette,la nouvelle crêperie qui fait parler d'elle</h3>
-                        <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant
-                            à
-                            Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées,
-                            salées
-                            au froment ou au sarrazin!
-                        </p>
+                        <h3>Le Métro dessert</h3>
+                        <p>Gérmain est ferrovipathe (ndlr: fan de train, son fils Maxime est pâtissier. Ils ont décidé
+                            de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir
+                            absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne
+                            son avis.</p>
                     </div>
                 </article>
 
                 <article class="row mt-4">
                     <img class="col-4" src="./img/articles/vitaly/vitaly-header.jpg" alt="vitaly">
                     <div class="col-8">
-                        <h3>Chez Suzette,la nouvelle crêperie qui fait parler d'elle</h3>
-                        <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant
-                            à
-                            Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrées,
-                            salées
-                            au froment ou au sarrazin!
+                        <h3>Vitaly, le végan italien</h3>
+                        <p>Quand on pense italien, on pense lasagne et jambon de Parme. Ils l'ont fait, les saveurs de
+                            l'Italie à portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.
                         </p>
                     </div>
                 </article>
@@ -100,34 +97,61 @@
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Recherche</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Recherche...">
-                    <button type="button" class="btn btn-outline-dark">OK</button>
+                    <button type="button" class="btn btn-outline-dark col-12">OK</button>
                 </div>
                 <div class="mb-3">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Newsletter</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email...">
-                        <button type="button" class="btn btn-outline-dark">S'inscrire</button>
-                    </div>
-                    <div class="mb-3">
-
-            </aside>
+                    <label for="exampleFormControlInput1" class="form-label">Newsletter</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email...">
+                    <button type="button" class="btn btn-outline-dark col-12">S'inscrire</button>
+                </div>
+                <p>Partager</p>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-twitter"></i>
         </div>
+        </aside>
+        </div>
+
         <div class="row mt-4">
             <h6>*Voir les articles précédents</h6>
         </div>
     </main>
 
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row m-5">
                 <div class="col-4">
                     <h2>Catégorie</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#"> revue</a></li>
+                        <li><a href="#"> recette</a></li>
+                        <li><a href="#"> découverte</a></li>
+                    </ul>
                 </div>
                 <div class="col-4">
-                       <h2>Archives</h2>
+                    <h2>Archives</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#"> 2019</a></li>
+                        <li><a href="#"> 2018</a></li>
+                        <li><a href="#"> 2017</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-4 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Newsletter</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email...">
+                    <button type="button" class="btn btn-outline-light col-12">S'inscrire</button>
+
+                    <p>Partager</p>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-twitter"></i>
                 </div>
             </div>
         </div>
+
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

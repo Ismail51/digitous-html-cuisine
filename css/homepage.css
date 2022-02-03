@@ -1,3 +1,13 @@
 footer{
     background-color: black;
+    
+}
+
+.container-fluid,a {
+color: white;
+font-family: courgette;
+
+}
+aside{
+    font-family: courgette;
 }

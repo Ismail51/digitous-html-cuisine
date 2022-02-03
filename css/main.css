@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: courgette;
+    font-family: oswald;
 }
 
 header { 
@@ -29,16 +29,21 @@ hr{
     
 }
 h3{
-    font-family: oswald;
+    font-family: courgette;
 }
 
 
 h1{
     color: white;
+    font-family: courgette;
 }
 h2{
     color: white;
+    font-family: courgette;
 }
 button{
     width: 200px;
+}
+footer > a{
+    font-family: oswald;
 }
